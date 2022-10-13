@@ -14,7 +14,7 @@ You can start by installing modules from `requirements.txt`
 > Some module like Pytorch or torchvision is not included as you can use latest version
 
 - To train the model, follow the [Training Notebook](https://github.com/imneonizer/pytorch-triplet-loss/blob/main/training.ipynb)
-- While training, you can use the [Visualization Notebook](https://github.com/imneonizer/pytorch-triplet-loss/blob/main/training.ipynb) to see training graphs or test how model is performing by predicting on test images.
+- While training, you can use the [Visualization Notebook](https://github.com/imneonizer/pytorch-triplet-loss/blob/main/visualization.ipynb) to see training graphs or test how model is performing by predicting on test images.
 
 #### Prediction from trained model
 
