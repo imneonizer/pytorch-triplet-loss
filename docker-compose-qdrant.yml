@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  qdrant:
+    image: qdrant/qdrant:v0.10.0
+    ports:
+      - 6333:6333
+      - 6334:6334
+    environment:
+      - QDRANT_HTTP_PORT=6333
+      - QDRANT_GRPC_PORT=6334
+    volumes:
+      - ./qdrant:/qdrant/storage
+      - ./config/qdrant.yaml:/qdrant/config/production.yaml

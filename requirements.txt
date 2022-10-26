@@ -2,3 +2,6 @@ pytorch-metric-learning==1.6.2
 faiss-cpu==1.6.3
 faiss-gpu==1.6.3
 opencv-python==4.5.5.64
+grpcio===1.41.0
+grpcio-tools==1.41.0
+qdrant-client==0.10.0
